@@ -60,9 +60,9 @@ The four talks at MCP Connect Amsterdam mapped almost perfectly onto these four 
 
 ---
 
-## The talks, mapped to the roadmap
+## The juicy part
 
-### Transport scalability + agent communication - Sam Morrow (GitHub)
+### Sam Morrow (GitHub)
 **Talk: MCP vs CLIs: Why Agents Need Purpose-Built Interfaces**
 
 Sam's talk was the clearest articulation of where the protocol sits technically. His core argument: MCP vs CLI is the wrong question. The real question is what you're optimising for.
@@ -85,7 +85,7 @@ Sam also mentioned he deliberately omitted the SSH public key API from the GitHu
 
 ---
 
-### Governance maturation - Anthony Diaz (Orq.ai)
+### Anthony Diaz (Orq.ai)
 **Talk: Improving Agentic Experience and Onboarding Using MCPs**
 
 Anthony's talk was about a specific, underappreciated problem: agents feel fragile because they lack context about the products they're trying to use. His answer connects directly to governance: use all three MCP primitives together, not just tools, and invest heavily in the quality of what you expose.
@@ -108,7 +108,7 @@ Orq.ai's own MCP has ~25 tools, all optimised for context window efficiency. Pre
 
 ---
 
-### Transport scalability (client side) - Sean Kenny (Prosus)
+### Sean Kenny (Prosus)
 **Talk: Using or Not Using MCPs as a Client**
 
 Sean's talk was the most practically grounded of the evening. Prosus runs an internal agentic platform with 4,000-5,000 active agents per day, many used by non-technical staff.
@@ -127,8 +127,8 @@ His framework for evaluating MCP sources: community MCP (unusable at enterprise 
 
 ---
 
-### MCP Apps (transport + governance intersection) - Charles Sonigo (Alpic)
-**Talk: Building MCP & ChatGPT Apps with Modern DevX Using Skybridge**
+### Charles Sonigo (Alpic)
+**Talk: Building MCP & ChatGPT Apps with Modern DevX**
 
 Charles's talk covered MCP Apps in practice: how Skybridge handles the React component wiring, state sync between the UI and the model context, and the double-iframe security architecture the spec requires. The framework is platform-agnostic and works with both ChatGPT Apps SDK and MCP Apps clients.
 
