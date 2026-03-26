@@ -12,7 +12,7 @@ Make of that what you will.
 
 This repo contains my notes, takeaways, and resources from [MCP Connect Amsterdam](https://lu.ma/mcp-connect-amsterdam), hosted at **AI House Amsterdam** (Zuidas) and co-organised by [GitHub](https://github.com), [Alpic](https://alpic.ai), [Orq.ai](https://orq.ai), and [Prosus](https://www.prosus.com).
 
-> *I'm not an engineer; I'm an ecosystem operator embedded in the Amsterdam AI scene. I took notes, went down rabbit holes, and wrote up what stayed with me. If anything here is useful to you, great.*
+> *I'm not an engineer but a proud vibey coder ;) I'm an ecosystem operator embedded in the European innovation ecosystem and Amsterdam's deeptech scene. I took notes, went down rabbit holes, and wrote up what stayed with me. If anything here is useful to you, great.*
 
 ---
 
