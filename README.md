@@ -4,7 +4,7 @@ Notes from MCP Connect Amsterdam (March 2026) exploring the Model Context Protoc
 
 The week before this event, posts were circulating declaring MCP finished. A Y Combinator partner shared a hot take. A prominent open-source developer called it over-engineered middleware. The Fast MCP team announced they were holding a funeral in New York on April 1st.
 
-Then ~210 people showed up to an evening event in Amsterdam to talk about it.
+Then 100+ people showed up to an evening event in Amsterdam to talk about it.
 
 Make of that what you will.
 
