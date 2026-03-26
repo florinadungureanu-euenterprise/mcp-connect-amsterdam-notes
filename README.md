@@ -69,8 +69,6 @@ Sam's talk was the clearest articulation of where the protocol sits technically.
 
 He framed the whole problem around five constraints he calls **The Five Context Engineering Constraints**: every token spent on tool calling competes across these forces, and optimising one often worsens another.
 
-![The Five Context Engineering Constraints](slides/IMG_7995.jpeg)
-
 1. **Roundtrips** - each turn re-sends everything before it
 2. **Cache Stability** - changing tools costs cache hits
 3. **Context Budget** - schemas, results, and history all compete
@@ -92,21 +90,15 @@ Sam also mentioned he deliberately omitted the SSH public key API from the GitHu
 
 Anthony's talk was about a specific, underappreciated problem: agents feel fragile because they lack context about the products they're trying to use. His answer connects directly to governance: use all three MCP primitives together, not just tools, and invest heavily in the quality of what you expose.
 
-![How MCP improves Agentic Experience](slides/IMG_7999.jpeg)
-
 What the agent gets from a well-built MCP: a communication layer with your product, a clear overview of your entities, and always access to the latest capabilities (unlike CLIs, which require reinstallation to update).
 
-The onboarding comparison was the most visceral slide of the evening:
-
-![Two paths: with and without MCP](slides/IMG_8001.jpeg)
+The onboarding comparison:
 
 **Without MCP:** Read documentation (30 min) + Find API keys (20 min) + Configure integrations (45 min) + Debug connection issues (60 min) = first result after 3+ hours.
 
 **With MCP:** Click "Connect Tools" (10 sec) + Agent discovers capabilities (5 sec) + Agent auto-configures (5 sec) + Personalised results delivered (30 sec) = value delivered in under 1 minute.
 
 That's not a rounding error. That's a different category of experience.
-
-![Key takeaways](slides/IMG_8003.jpeg)
 
 Anthony's key takeaway: MCP is a strategic enabler for agentic products, and time-to-value is the ultimate onboarding metric. Agentic onboarding should be self-driving. MCP makes agents configure themselves from context. Act now for first-mover advantage.
 
@@ -121,17 +113,11 @@ Orq.ai's own MCP has ~25 tools, all optimised for context window efficiency. Pre
 
 Sean's talk was the most practically grounded of the evening. Prosus runs an internal agentic platform with 4,000-5,000 active agents per day, many used by non-technical staff.
 
-The slide that sharpened the whole evening into a single tension:
-
-![Productionising Agents](slides/IMG_8005.jpeg)
-
 When you build agents and scale in production, you want to maximise reliability, maximise accuracy, minimise latency, and minimise cost. That means: **as few tools as possible, tools as tailored as possible.**
 
 But when you build MCPs for others to use, you focus on maximum capability. That means: **as many capabilities as possible (wrap APIs).**
 
 These goals are structurally opposed. No amount of goodwill from MCP providers resolves this. The enterprise client that wants a single tailored tool and the MCP provider that wants to showcase everything are not building for each other.
-
-![Tailoring tools per use case](slides/IMG_8007.jpeg)
 
 Sean's BigQuery example: the official BigQuery MCP has tools like `bigquery-analyze-contribution`, `bigquery-conversational-analytics`, `bigquery-execute-sql`, `bigquery-forecast`, and more. For his use case (account managers needing a daily restaurant report), he didn't need any of them. He built one custom tool: give me the restaurant ID, return the data. One tool. No ambiguity. Reliable at scale.
 
